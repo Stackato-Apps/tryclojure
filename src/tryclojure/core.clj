@@ -162,7 +162,7 @@
 (defn tryclj [& [port]]
   (server/start
    (or (to-port port)
-       (to-port (System/getenv "PORT")) ;; For deploying to Heroku
+       (to-port (System/getenv "VCAP_APP_PORT")) ;; For deploying to Stackato
        8801)))
 
 (defn -main [& args] (tryclj (first args)))
