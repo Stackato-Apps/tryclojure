@@ -2,6 +2,12 @@
 
 TryClojure is a online Clojure REPL written using Noir and Chris Done's jquery console (you're awesome, Chris).
 
+## Deploy on Stackato
+
+     git clone git://github.com/Stackato-Apps/tryclojure.git
+     cd tryclojure
+     stackato push -n
+
 ## Usage
 
 http://tryclj.com
