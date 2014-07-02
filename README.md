@@ -2,6 +2,8 @@
 
 TryClojure is a online Clojure REPL written using Noir and Chris Done's jquery console (you're awesome, Chris).
 
+[<img src="https://secure.travis-ci.org/Raynes/tryclojure.png"/>](http://travis-ci.org/Raynes/tryclojure)
+
 ## Deploy on Stackato
 
      git clone git://github.com/Stackato-Apps/tryclojure.git
@@ -12,7 +14,7 @@ TryClojure is a online Clojure REPL written using Noir and Chris Done's jquery c
 
 http://tryclj.com
 
-If you want to run it, refer to https://github.com/Raynes/tryclojure/wiki/Running-Tryclojure
+To run it locally, use `lein ring server`.
 
 ## Credits
 
