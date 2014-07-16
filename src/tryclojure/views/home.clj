@@ -41,7 +41,7 @@
    [:head
     (include-css "/css/tryclojure.css"
                  "/css/gh-fork-ribbon.css")
-    (include-js "http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+    (include-js "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
                 "/javascript/jquery-console/jquery.console.js"
                 "/javascript/tryclojure.js")
     [:title "Try Clojure"]]
